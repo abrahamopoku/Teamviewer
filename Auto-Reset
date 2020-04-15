@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Please the hostname like root@abraham.com"
+read hst
+export hst
+echo "Please input the Path to the script /home/opoku/reset.sh"
+read pth
+export pth
+ssh $hst $pth
